@@ -1,0 +1,19 @@
+Functional Simulator for RISC-V Multi-Cycle Pipelined Processor with Stalling, Forwarding and Branch Prediction
+Group No. 18
+Rohit Madan - 2020EEB1202
+Omkar More - 2020EEB1188
+Harsh Gupta - 2019MED1008
+
+README
+
+How to Execute
+	$cd src
+	$python GUI.py
+
+Steps to Execute Your Machine Code on the GUI
+->Upload Your .mc file (machine code file) using the Upload File Button
+->Click on Assemble to load the program memory (Instruction Memory and Data Memory as accoridng to uploaded file)
+->Check/Uncheck the various knobs for your desired output
+->Click on Run to see the Output of your program.
+
+
