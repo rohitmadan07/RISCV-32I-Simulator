@@ -6,6 +6,27 @@ Harsh Gupta - 2019MED1008
 
 README
 
+Input:
+For the input, provide a .mc file which contains: 
+	-> Instruction Memory (Instruction Address and Instruction Encoding)
+	-> Data Segment (Address and Data which is stored)
+Using the Encoding 0xFFFFFFFF as our termination code.
+The Code/Instruction Segment is before the Termination Code and after it Starts the Data segment.
+
+The Simulator is divided into 3-phases, namely:
+	1. Single Cycle Execution
+	2. Pipelined Execution
+	3. Phase 1 & 2 along with Cache Modules
+
+Initial state of GUI
+
+Inputs and functionalities:
+
+After Assembling
+
+After running input file (.mc file)
+
+
 How to Execute
 	$cd src
 	$python GUI.py
